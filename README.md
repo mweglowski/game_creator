@@ -2,7 +2,7 @@
 
 > A lightweight, browser-based grid game builder — create your own maps, spawn mobs, roam the world with arrow keys or on-screen buttons, and maybe… get lost in your own chaos. And yes it is made in one file, happy scrolling 🤓
 
-This project is **fully front-end**, written in **vanilla JavaScript**, styled with **TailwindCSS**, and runs **directly in the browser**. No build tools or backend needed.
+This project is **fully front-end**, written in **vanilla JavaScript**, styled with **TailwindCSS**, and runs **directly in the browser**. No build tools or backend needed. Additionally ```index.html``` contains only root div and everything is generated and re-rendered on JavaScript side.
 
 ---
 
