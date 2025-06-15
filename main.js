@@ -1126,7 +1126,7 @@ const renderGameHistoryPage = async () => {
 
   const statsCardsList = createElement("div", `grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-[40px]`);
 
-  gameStats.sort((a, b) => a.date - b.date);
+  gameStats.sort((a, b) => b.date - a.date);
 
   gameStats.forEach((stats) => {
     const statsCard = createElement("div", "flex flex-col border rounded p-3 text-[13px] hover:ring-2 hover:ring-purple-300 duration-400 transition cursor-pointer hover:scale-[1.01]");
