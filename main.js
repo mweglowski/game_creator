@@ -289,9 +289,16 @@ const renderPresetsPage = async () => {
     "div",
     "flex flex-col gap-3 md:flex-row-reverse mx-auto mt-[50px]"
   );
-  const btnBack = createButton("<- Back to Options", () =>
-    navigateTo("new-game-options")
-  );
+  let btnBack;
+  if (currentScreen === "choose-preset") {
+    btnBack = createButton("<- Back to Options", () =>
+      navigateTo("new-game-options")
+    );
+  } else {
+    btnBack = createButton("<- Back to Menu", () =>
+      navigateTo("menu")
+    );
+  }
 
   if (currentScreen === "choose-preset" && presets.length > 0) {
     const btnStartGame = createButton("Start game", () => {
