@@ -14,7 +14,7 @@ This project is **fully front-end**, written in **vanilla JavaScript**, styled w
 
 ⚙ Preset configuration.
 
-![Preset configuration]([image-url](https://i.imgur.com/aTMA2b4.png))
+![Preset configuration](https://i.imgur.com/aTMA2b4.png)
 ---
 
 ## ✨ Features
