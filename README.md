@@ -8,10 +8,13 @@ This project is **fully front-end**, written in **vanilla JavaScript**, styled w
 
 ## 🎥 Demo
 
-Want to see it in action before cloning?
+⚡ Want to see it in action before cloning?
 
-[![Watch the Demo]()]()
+[![Watch the Demo](https://i.imgur.com/sUHAFJv.jpeg)](https://youtu.be/vUml0e0UB7c)
 
+⚙ Preset configuration.
+
+![Preset configuration]([image-url](https://i.imgur.com/aTMA2b4.png))
 ---
 
 ## ✨ Features
