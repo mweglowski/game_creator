@@ -41,7 +41,7 @@ If you use VSCode you can use Live Server extension or just run index.html insid
 
 - **JavaScript (vanilla)** – logic, input, rendering and everything, there is no css file!
 - **TailwindCSS** – layout and styling
-- **HTML5** – markup and DOM structure
+- **HTML5** – just <div class="root"></div> 🙂
 
 ---
 
