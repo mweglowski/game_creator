@@ -1,7 +1,7 @@
 const root = document.querySelector(".root");
 
 // State
-let currentScreen = "game-history";
+let currentScreen = "landing";
 let currentPreset = {};
 let gamePreset = {};
 let selectedControlButton = null;
