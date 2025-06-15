@@ -924,7 +924,7 @@ const renderGamePage = () => {
   const container = createElement("div", "h-screen justify-center items-center flex");
   container.id = "game-container";
 
-  const game = createElement("div", `flex flex-col space-y-[${(window.innerWidth / (currentPreset.width + 2)) / 15}px]`);
+  const game = createElement("div", `flex flex-col space-y-[4px]`);
   game.id = "game";
 
   const gameEndModal = createElement("div", "flex justify-center items-center hidden absolute bg-white/30 backdrop-blur-[10px] h-screen w-screen");
@@ -999,7 +999,7 @@ const renderGame = () => {
   if (cellSize > 40) cellSize = 40;
 
   for (let i = 1; i <= height; i++) {
-    const currentRow = createElement("div", `flex space-x-[${cellSize / 15}px]`);
+    const currentRow = createElement("div", `flex space-x-[4px]`);
 
     for (let j = 1; j <= width; j++) {
 
