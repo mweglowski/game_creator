@@ -48,5 +48,6 @@ If you use VSCode you can use Live Server extension or just run index.html insid
 ## 🧙 Final Words
 
 This project was built for fun, learning, and pixel-flavored joy. If it helps you code, laugh, or rage-quit slightly slower, mission accomplished.
-**Enjoy!** 🕹️~~
+**Enjoy!** 🕹️
+
 ~ Built with ❤️ and JavaScript
