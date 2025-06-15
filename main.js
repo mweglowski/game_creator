@@ -93,17 +93,17 @@ const renderLandingPage = () => {
     "h-screen relative flex justify-center overflow-hidden"
   );
   const boxOne = createElement(
-    "div",
-    "w-[400px] h-[300px] rounded-lg bg-[#A82EEF] absolute top-[30%] left-[15%] rotate-[20deg] z-[-1]"
-  );
-  const boxTwo = createElement(
-    "div",
-    "w-[400px] h-[300px] rounded-lg bg-[#BB4BC5] absolute top-[20%] right-[15%] rotate-[-20deg] z-[-1]"
-  );
+  "div",
+  "w-[400px] h-[300px] rounded-lg bg-[#A82EEF] absolute top-[30%] left-1/2 -translate-x-[250px] rotate-[20deg] z-[-1]"
+);
+const boxTwo = createElement(
+  "div",
+  "w-[400px] h-[300px] rounded-lg bg-[#BB4BC5] absolute top-[20%] left-1/2 translate-x-[-150px] rotate-[-20deg] z-[-1]"
+);
 
   const mainContent = createElement(
     "div",
-    "h-screen bg-white/30 backdrop-blur-[60px] w-full flex flex-col justify-center items-center"
+    "h-screen bg-white/30 backdrop-blur-[70px] w-full flex flex-col justify-center items-center"
   );
 
   const textContainer = createElement(
